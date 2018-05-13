@@ -44,9 +44,13 @@ This is a classification problem where we input data and want the model to deriv
 
 Before I start building the models, I need to wrangle the data and have a closer look at potential feature engineering. I will run this in an EDA-like manner looking at several uni- and bivariate numbers and plots, either coding with R or Python. Useful outputs might be correlation matrices or boxplots, examples are provided below: 
 
+![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20correlation%20matrix.png)
+
+![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20box%20plot.png)
+
 Subsequently, I will write the classification code in Python. The performance evaluation could look similar to my CharityML project as stated below: 
 
-
+![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20model%20performance%20comparison.png)
 
 Once I obtained the basic models and their accuracy scores, I will decide on the best model and try to improve it further, keeping track on whether the performance improved or not. 
 
