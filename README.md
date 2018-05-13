@@ -31,11 +31,11 @@ Solution of the project is to provide a comprehensive sales forecasting that has
 
 ### Benchmark Model
 
-Along the information given by kaggle, main difficulties of the benchmark model are high efforts and varying accuracy of the manual sales predictions. Many different circumstances come into play, leading to different sales forecasts for different stores, which have a reason to exist but on the other hand are difficult to sanity check from upper management levels or financial controllers. The new model would improve this benchmark by laying out a clear path to calculate the sales forecast accuracy that people can a) trust in and b) could shift their efforts from sales forecasting itself towards understanding why sales forecasts were off, i.e. further improving the model in the end.
+Along the information given by kaggle, main difficulties of the benchmark model are high efforts and varying accuracy of the manual sales predictions. Many different circumstances come into play, leading to different sales forecasts for different stores, which have a reason to exist but on the other hand are difficult to sanity check from upper management levels or financial controllers. The new model would improve this benchmark by laying out a clear path to calculate the sales forecast accuracy that people can a) trust in and b)  shift their efforts from sales forecasting itself towards understanding why sales forecasts were off, i.e. further improving the forecasting model in the end.
 
 ### Evaluation Metrics
 
-The evaluation metric is the accuracy score of sales forecast vs. real sales data. As listed in the benchmark model, this score has been highly variable, yet we do not have exact benchmark figures. The project will include the following accuracy score by sklearn: the set of labels predicted for the training set must exactly match the corresponding set of labels in the (split) test set. Result will be a number between 0 and 1, which will be translated into a percentage. As Rossmann is not provided real accuracy score numbers, the goal will be to deliver a score as highly as possible. Benchmarks of "what good looks like" will be created by the iterations of different methods to solve the problem within this project. 
+The evaluation metric is the accuracy score of sales forecast vs. real sales data. As listed in the benchmark model, this score has been highly variable, yet we do not have exact benchmark figures. The project will include the following accuracy score by sklearn: the set of labels predicted for the training set must exactly match the corresponding set of labels in the (split) "true" set. Result will be a number between 0 and 1, which will be translated into a percentage. As Rossmann is not provided real accuracy score numbers, the goal will be to deliver a score as highly as possible. Benchmarks of "what good looks like" will be created by the iterations of different methods to solve the problem within this project. 
 
 ### Project Design
 
@@ -53,7 +53,7 @@ Subsequently, I will write the classification code in Python. The performance ev
 
 ![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20model%20performance%20comparison.png)
 
-Once I obtained the basic models and their accuracy scores, I will decide on the best model and try to improve it further, keeping track on whether the performance improved or not. 
+Once I obtained the basic models and their accuracy scores, I will decide on the best model and try to further improve it, keeping track on whether the performance improved or not. 
 
 When the model is finalized, I will provide a detailed model evaluation and summary of the key findings.  
 
