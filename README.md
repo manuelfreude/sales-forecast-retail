@@ -1,6 +1,7 @@
 # Udacity Machine Learning Engineer Nanodegree
 ## Capstone Proposal
 Manuel Freude
+
 May 2018
 
 ## Proposal
@@ -42,13 +43,13 @@ The kaggle project had been completed some time ago, I had a look at blog posts 
 
 This is a classification problem where we input data and want the model to derive a sales forecast based on the input. In the CharityML project, I had already applied a choice of supervised classifiers: AdaBoost Ensemble, Support Vector Machines and Logistic Regression. Based on the blog posts listed above, it seems that XGBoost is a classifier I should also consider. It requires more training time without GPUs, I might use AWS for speeding up the calculations. I will compare the performance of these methods to get a feeling of the respective accuracy scores and decide which model works best. 
 
-Before I start building the models, I need to wrangle the data and have a closer look at potential feature engineering. I will run this in an EDA-like manner looking at several uni- and bivariate numbers and plots, either coding with R or Python. Useful outputs might be correlation matrices or boxplots, examples are provided below: 
+Before I start building the models, I need to wrangle the data and have a closer look at potential feature engineering. I will run this in an EDA-like manner looking at several uni- and bivariate numbers and plots, either coding with R or Python. Useful outputs might be correlation matrices or boxplots, examples from a former EDA project I did (public https://github.com/manuelfreude/white-wine-quality) are provided below: 
 
 ![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20correlation%20matrix.png)
 
 ![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20box%20plot.png)
 
-Subsequently, I will write the classification code in Python. The performance evaluation could look similar to my CharityML project as stated below: 
+Subsequently, I will write the classification code in Python. The performance evaluation could look similar to my CharityML (private https://github.com/manuelfreude/charity-ml-donors) project as stated below: 
 
 ![](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Sample%20model%20performance%20comparison.png)
 
@@ -58,10 +59,3 @@ When the model is finalized, I will provide a detailed model evaluation and summ
 
 -----------
 
-**Before submitting your proposal, ask yourself. . .**
-
-- Does the proposal you have written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Solution Statement** and **Project Design**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your proposal?
-- Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
