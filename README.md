@@ -37,9 +37,20 @@ Along the information given by kaggle, main difficulties of the benchmark model 
 The evaluation metric is the accuracy score of sales forecast vs. real sales data. As listed in the benchmark model, this score has been highly variable, yet we do not have exact benchmark figures. The project will include the following accuracy score by sklearn: the set of labels predicted for the training set must exactly match the corresponding set of labels in the (split) test set. Result will be a number between 0 and 1, which will be translated into a percentage. As Rossmann is not provided real accuracy score numbers, the goal will be to deliver a score as highly as possible. Benchmarks of "what good looks like" will be created by the iterations of different methods to solve the problem within this project. 
 
 ### Project Design
-_(approx. 1 page)_
 
-In this final section, summarize a theoretical workflow for approaching a solution given the problem. Provide thorough discussion for what strategies you may consider employing, what analysis of the data might be required before being used, or which algorithms will be considered for your implementation. The workflow and discussion that you provide should align with the qualities of the previous sections. Additionally, you are encouraged to include small visualizations, pseudocode, or diagrams to aid in describing the project design, but it is not required. The discussion should clearly outline your intended workflow of the capstone project.
+The kaggle project had been completed some time ago, I had a look at blog posts from the first (http://blog.kaggle.com/2015/12/21/rossmann-store-sales-winners-interview-1st-place-gert/), second (http://blog.kaggle.com/2016/02/03/rossmann-store-sales-winners-interview-2nd-place-nima-shahbazi/) and third (http://blog.kaggle.com/2016/01/22/rossmann-store-sales-winners-interview-3rd-place-cheng-gui/) prize winners to understand their way of approaching the solution. 
+
+This is a classification problem where we input data and want the model to derive a sales forecast based on the input. In the CharityML project, I had already applied a choice of supervised classifiers: AdaBoost Ensemble, Support Vector Machines and Logistic Regression. Based on the blog posts listed above, it seems that XGBoost is a classifier I should also consider. It requires more training time without GPUs, I might use AWS for speeding up the calculations. I will compare the performance of these methods to get a feeling of the respective accuracy scores and decide which model works best. 
+
+Before I start building the models, I need to wrangle the data and have a closer look at potential feature engineering. I will run this in an EDA-like manner looking at several uni- and bivariate numbers and plots, either coding with R or Python. Useful outputs might be correlation matrices or boxplots, examples are provided below: 
+
+Subsequently, I will write the classification code in Python. The performance evaluation could look similar to my CharityML project as stated below: 
+
+
+
+Once I obtained the basic models and their accuracy scores, I will decide on the best model and try to improve it further, keeping track on whether the performance improved or not. 
+
+When the model is finalized, I will provide a detailed model evaluation and summary of the key findings.  
 
 -----------
 
