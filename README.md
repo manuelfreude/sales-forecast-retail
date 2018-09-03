@@ -14,8 +14,6 @@ May 2018
 
 ![Performance](https://github.com/manuelfreude/sales-forecast-retail/blob/master/Performance_comparison.png)
 
-RMSPE - root mean squared percentage error
-
 Overall, the benchmark model proved that it was not only a “placeholder” benchmark, but the linear regression could stand up against other more sophisticated algorithms with an RMSPE of below 1,200 and an r2 score of 91%. Yet, the two high-performing models showed even better performance, and the fine-tuning led to even further increases, especially for the XGBoost algorithm. XGBoost’s RMSPE of 634.38 is very strong, the r2 score of 97% also a great score, which is rarely seen in regression analyses. Both the refined MLP and XGBoost had performed slightly better on the test dataset than on the “true” dataset, but any hypothesis on overfitting can certainly be rejected at this point
 
 
