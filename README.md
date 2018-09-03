@@ -6,9 +6,9 @@ May 2018
 
 ### Python project summary
 
-- Prepared dataset of +1 million rows and +45 columns incl. merger, creation of dummy variables, changing of data types
+- Prepared dataset of +1 million rows & +45 columns incl. merger, dummy variables creation, data types change
 - Conducted exploratory data analysis with visualizations and statistics
-- Developed benchmark regressor model, implemented 6 additional prediction models and fine-tuned two top performers
+- Developed benchmark regressor, implemented 6 additional prediction models and fine-tuned two top performers
 
 ### Performance overview of selected algorithms
 
@@ -21,7 +21,7 @@ Overall, the benchmark model proved that it was not only a “placeholder” ben
 
 ### Domain Background
 
-The project will investigate a problem that is often encountered in the business context. Sales forecasting is an imporant task for estimating cash flow and required inventory levels. The better the sales forecasting is, the better a company can predict it's cash balance and organize its supply chain. Some exemplary algorithms to solve this problem are regression techniques, which have been frequently discussed in academics (e.g. https://link.springer.com/article/10.1007/s00521-016-2215-x). The dataset for the capstone project is obtained from https://www.kaggle.com/c/rossmann-store-sales. Rossmann operates over 3,000 drug stores in 7 European countries, mainly Germany.
+The project will investigate a problem that is often encountered in the business context. Sales forecasting is an important task for estimating cash flow and required inventory levels. The better the sales forecasting is, the better a company can predict it's cash balance and organize its supply chain. Some exemplary algorithms to solve this problem are regression techniques, which have been frequently discussed in academics (e.g. https://link.springer.com/article/10.1007/s00521-016-2215-x). The dataset for the capstone project is obtained from https://www.kaggle.com/c/rossmann-store-sales. Rossmann operates over 3,000 drug stores in 7 European countries, mainly Germany.
 
 ### Problem Statement
 
