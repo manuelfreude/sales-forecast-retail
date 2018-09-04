@@ -1,4 +1,5 @@
 # Udacity Machine Learning Engineer Nanodegree
+Project context: fully self-developed and self-coded capstone project for MLND
 ## Sales Forecast Retail Proposal
 Manuel Freude
 
